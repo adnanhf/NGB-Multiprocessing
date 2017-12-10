@@ -99,6 +99,3 @@ if __name__ == "__main__":
     save.save("BlurSerial.png","PNG")
     
     print("--- Gaussian Blur done in {0:.5f} minutes ---".format((t.clock() - start)/60))
-
-
-#4M5F@m1Ly
