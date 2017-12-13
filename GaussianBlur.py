@@ -87,7 +87,7 @@ def smoothing(img,kernel,kernsum,time):
 if __name__ == "__main__":
     start = t.clock()
     
-    filename='ganteng.jpg'
+    filename='input.jpg'
     imgori,ori_size=read_image(filename)
     gauker,gausum=make_gaussian_kernel(1,5)
     print("Kernel:\n",gauker)
